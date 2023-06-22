@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>image moving</title>
+    <style type="text/css">
+        div
+        {
+            height: 220px;
+            width: 200px;
+            transition: 3s;
+            font-size: 25px;
+            color: rgb(18, 18, 18);
+            background-color: rgb(21, 238, 53);
+        }
+
+        #TranslateDiv:hover
+        {
+            transform: translate(100px,100px);
+            background-color: aqua;
+            color: aquamarine;
+        }
+
+        #RotateDiv:hover
+        {
+            transform: rotate(90deg);
+            background-color: rgb(237, 237, 93);
+            color: black;
+        }
+
+        #RotateDiv3D:hover
+        {
+            transform: rotate3d(1,1,360deg);
+            background-color: rgb(129, 150, 253);
+            color: rgb(238, 78, 78);
+        }
+
+        #SkewDiv:hover
+        {
+            transform: skew(90deg);
+            background-color: rgb(246, 111, 246);
+            color: rgb(49, 8, 115);
+        }
+
+        #ScaleDiv:hover
+        {
+            transform: scale(0.5,1.5);
+            background-color: rgb(235, 77, 125);
+            color: rgb(59, 27, 16);
+        }
+
+        #OpacityDiv:hover
+        {
+            background-color: rgb(24, 185, 75);
+            color: rgb(203, 212, 25);
+        }
+
+        #RGBADiv:hover
+        {
+            background-color: rgb(75, 80, 132);
+        }
+
+        #BoxShadowDiv:hover
+        {
+            box-shadow: 0px 0px 30px rgb(223, 77, 239);
+        }
+
+        #TextShadowDiv:hover
+        {
+            text-shadow:3px 3px 3px rgb(243, 243, 29);
+        }
+
+        #BorderRadiusDiv:hover
+        {
+            border-radius: 40%;
+            background-color: rgb(97, 207, 234);
+        }
+
+        #OverFlowDiv{overflow: auto;}
+</style>
+</head>
+<body>
+    <div id="TranslateDiv">Translate</div><br><br><hr>
+    <div id="RotateDiv">Rotate</div><br><br><hr>
+    <div id="RotateDiv3D">Rotate 3D</div><br><br><hr>
+    <div id="SkewDiv">Skew</div><br><br><hr>
+    <div id="ScaleDiv">Scale</div><br><br><hr>
+    <div id="OpacityDiv">Opacity</div><br><br><hr>
+    <div id="RGBADiv">RGBA</div><br><br><hr>
+    <div id="BoxShadowDiv">Box-shadow</div><br><br><hr>
+    <div id="TextShadowDiv">Text-shadow</div><br><br><hr>
+    <div id="BorderRadiusDiv">Border-radius</div><br><br><hr>
+    <div id="OverFlowDiv">Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow</div><br><br><hr>
+</body>
+</html>
